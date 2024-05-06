@@ -157,6 +157,7 @@ struct settings {
         bool force_xinerama;
         bool force_xwayland;
         int corner_radius;
+        bool round_three_corners;
         enum mouse_action *mouse_left_click;
         enum mouse_action *mouse_middle_click;
         enum mouse_action *mouse_right_click;
